@@ -1,0 +1,114 @@
+.sidebar-menu li a{
+  font-size: 16px !important;
+}
+
+.ondri-logo{
+  width: 225px;
+  margin-left: 35px;
+}
+
+.disable{
+  cursor: not-allowed;
+  opacity: 0.2;
+}
+
+
+/* Start of Step #1 and #2 Tabs */
+.selection{
+  font-size: 16px;
+  color: #4C4C4C;
+}
+
+#fileSelection1, #fileSelection2{
+  overflow-x: auto;
+  overflow-y: auto;
+  height: 130px;
+}
+
+#optionSelection1, #dataFrameSelection1, #optionSelection2, 
+#dataFrameSelection2{
+  overflow-y: auto;
+  height: 120px;
+}
+
+#selectDataFile, #selectDictFile{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#dataFilePathOutput, #dictFilePathOutput{
+  font-size: 15px;
+}
+/* End of Step #1 and #2 Tabs */
+
+
+/* Start of Step #5 Tab */
+#varOutput, #parOutput{
+  overflow-y: auto;
+  height: 200px;
+}
+/* End of Step #5 Tab*/
+
+
+/* Start of Step #6 Tab */
+.step6-box{
+  margin: 10px;
+  height: 600px;
+  overflow-y: auto;
+}
+
+.var-box{
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+#confirmVarType6{
+  width: 200px !important;
+}
+/* End of Step #6 Tab */
+
+
+/* Start of Step #7 Tab */
+.step7-box{
+  height: 110px;
+}
+
+.export-button{
+  background-color: #5BC0DE !important;
+  color: white !important;
+  font-size: 16px !important;
+  width: 275px !important;
+  height: 50px !important;
+  float: left !important;
+  margin-right: 20px !important;
+}
+/* End of Step #7 Tab */
+
+
+/* Common among all tabs */
+.step-button{
+  background-color: #5BC0DE !important;
+  color: white !important;
+  font-size: 16px !important;
+  width: 125px !important;
+  height: 50px !important;
+  float: left !important;
+}
+
+.confirm-button, .reset-button{
+  font-size: 16px !important;
+  width: 150px !important;
+  height: 40px !important;
+  float: left !important;
+  margin-right: 20px !important;
+}
+
+.header{
+  font-size: 16px;
+  font-weight: bold;
+}
+/* End of common along all tabs */
+
+/* [END] */
