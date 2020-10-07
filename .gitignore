@@ -38,7 +38,7 @@ rsconnect/
 .Rproj.user
 
 .DS_Store
-#**.csv
+**.csv
 **.txt
 **.rda
 **.rdata
