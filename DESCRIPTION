@@ -1,0 +1,39 @@
+Package: ONDRIDataPrepApp
+Title: ONDRI Data Prep ShinyApp
+Version: 0.9.0.9002
+Authors@R: c(
+    person(given = "Jedid",
+           family = "Ahn",
+           role = c("aut"),
+           email = "jahn@research.baycrest.org"),
+    person(given = "Derek",
+           family = "Beaton",
+           role = c("aut", "cre"),
+           email = "dbeaton@research.baycrest.org"))
+Description: A Shiny app for data preparation, meant primarily for use with ONDRI data as part of the ONDRI NIBS standards and outliers pipeline.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: R (>= 2.10)
+Imports: 
+    remotes,
+    shiny,
+    shinydashboard,
+    dashboardthemes,
+    shinyFiles,
+    shinyWidgets,
+    shinyjs,
+    shinyjqui,
+    shinycssloaders,
+    DT,
+    dplyr,
+    tidyr,
+    tibble,
+    ggplot2,
+    purrr,
+    magrittr,
+    missMDA,
+    fs,
+    GSVD,
+    ours
