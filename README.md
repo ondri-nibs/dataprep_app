@@ -17,26 +17,24 @@ data as part of the ONDRI NIBS standards and outliers pipeline.
 
 <br>
 
-2.  Download and install the shiny app directly with the following lines
+1.  Download and install the shiny app directly with the following lines
     of code:
 
-<!-- end list -->
+<!-- -->
 
-``` 
-  if (!require("devtools")){
-    install.packages("devtools")
-  }
-  devtools::install_github(repo = "ondri-nibs/dataprep_app")
-```
+      if (!require("devtools")){
+        install.packages("devtools")
+      }
+      devtools::install_github(repo = "ondri-nibs/dataprep_app")
 
 <br>
 
-3.  Type `ONDRIDataPrepApp::installPackages()` to install any missing
+1.  Type `ONDRIDataPrepApp::installPackages()` to install any missing
     packages and/or dependencies. If you get the following message in
     your RStudio console, please type 3. <br><br>
     <img src='etc/package-update.png'>
 
 <br>
 
-4.  When installation is complete, type `ONDRIDataPrepApp::runApp()` to
+1.  When installation is complete, type `ONDRIDataPrepApp::runApp()` to
     open the app.
