@@ -1,7 +1,7 @@
 README
 ================
-
-Jedid Ahn & Derek Beaton, 2021JAN25
+Jedid Ahn & Derek Beaton.
+Updated as of March 14, 2021.
 
 # Data Preparation (Shiny) App <img src='etc/dataprep_app_logo.png' align="right" height="139"/>
 
@@ -31,7 +31,7 @@ data as part of the ONDRI NIBS standards and outliers pipeline.
     Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS = TRUE)
     devtools::install_github("derekbeaton/GSVD")
   }
-  if (!require("ours)){
+  if (!require("ours")){
     Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS = TRUE)
     devtools::install_github("derekbeaton/OuRS", subdir = "/OuRS")
   }
